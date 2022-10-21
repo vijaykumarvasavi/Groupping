@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="7" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-28T12:23:06Z" name="Suite" finished-at="2022-09-28T12:23:06Z" duration-ms="93">
+    <groups>
+      <group name="all">
+        <method signature="Test1.test3()[pri:0, instance:Commongroupinh.Test1@7ef82753]" name="test3" class="Commongroupinh.Test1"/>
+        <method signature="Test1.test4()[pri:0, instance:Commongroupinh.Test1@7ef82753]" name="test4" class="Commongroupinh.Test1"/>
+      </group> <!-- all -->
+      <group name="functional">
+        <method signature="Test1.test3()[pri:0, instance:Commongroupinh.Test1@7ef82753]" name="test3" class="Commongroupinh.Test1"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="Test1.test4()[pri:0, instance:Commongroupinh.Test1@7ef82753]" name="test4" class="Commongroupinh.Test1"/>
+        <method signature="Test2.test6()[pri:0, instance:Commongroupinh.Test2@3b0fe47a]" name="test6" class="Commongroupinh.Test2"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Test1.test3()[pri:0, instance:Commongroupinh.Test1@7ef82753]" name="test3" class="Commongroupinh.Test1"/>
+        <method signature="Test1.test4()[pri:0, instance:Commongroupinh.Test1@7ef82753]" name="test4" class="Commongroupinh.Test1"/>
+        <method signature="Test2.test6()[pri:0, instance:Commongroupinh.Test2@3b0fe47a]" name="test6" class="Commongroupinh.Test2"/>
+        <method signature="Test2.test7()[pri:0, instance:Commongroupinh.Test2@3b0fe47a]" name="test7" class="Commongroupinh.Test2"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-09-28T12:23:06Z" name="Test" finished-at="2022-09-28T12:23:06Z" duration-ms="93">
+      <class name="Commongroupinh.Test2">
+        <test-method signature="test7()[pri:0, instance:Commongroupinh.Test2@3b0fe47a]" started-at="2022-09-28T12:23:06Z" name="test7" finished-at="2022-09-28T12:23:06Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method signature="test6()[pri:0, instance:Commongroupinh.Test2@3b0fe47a]" started-at="2022-09-28T12:23:06Z" name="test6" finished-at="2022-09-28T12:23:06Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- Commongroupinh.Test2 -->
+      <class name="Commongroupinh.Test1">
+        <test-method signature="test3()[pri:0, instance:Commongroupinh.Test1@7ef82753]" started-at="2022-09-28T12:23:06Z" name="test3" finished-at="2022-09-28T12:23:06Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:0, instance:Commongroupinh.Test1@7ef82753]" started-at="2022-09-28T12:23:06Z" name="test4" finished-at="2022-09-28T12:23:06Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- Commongroupinh.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
